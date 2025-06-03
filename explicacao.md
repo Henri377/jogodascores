@@ -2,8 +2,7 @@
 
 ## Visão Geral
 
-Este código implementa um jogo simples chamado "Jogo das Cores" usando OpenGL (GLEW) e GLFW para renderização gráfica e manipulação de janelas. O objetivo do jogo é clicar em retângulos coloridos em uma grade, removendo todos os retângulos com cores semelhantes ao retângulo clicado. O jogador ganha pontos ao remover retângulos e o jogo termina quando a janela é fechada.
-
+Este código implementa um jogo simples chamado "Jogo das Cores" usando OpenGL (GLEW) e GLFW para renderização gráfica e manipulação de janelas. O objetivo do jogo é clicar em retângulos coloridos em uma grade, removendo todos os retângulos com cores semelhantes ao retângulo clicado. O jogador ganha pontos ao remover retângulos e o jogo termina quando nao exista mais retangulos
 ---
 
 ## Estruturas e Constantes
