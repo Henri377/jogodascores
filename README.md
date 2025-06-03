@@ -1,6 +1,6 @@
 # Jogo das Cores
 
-Um jogo simples em C++ e OpenGL onde o usuário deve clicar em retângulos de uma grade para remover todos os retângulos com cores similares. A cada tentativa, a pontuação diminui. O objetivo é remover o máximo de retângulos similares com a menor quantidade de tentativas possível.
+Um jogo simples em C++ e OpenGL onde o usuário deve clicar em retângulos de uma grade para remover todos os retângulos com cores similares. A cada tentativa, a pontuação aumenta ou diminui dado por score += removidos * 100 - tentativas * 50;.
 
 ## Como funciona
 
