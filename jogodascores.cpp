@@ -15,7 +15,7 @@ struct Rect {
 const int ROWS = 6, COLS = 10;
 const float RECT_W = 0.18f, RECT_H = 0.25f;
 std::vector<Rect> rects;
-int score = 1000, tentativas = 0;
+int score = 10000, tentativas = 0;
 
 const char* vs_src = R"(
 #version 330 core
